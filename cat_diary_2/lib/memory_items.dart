@@ -7,9 +7,9 @@ class Item {
   final String name;
   final String points;
 
-  String abbrev() {
-    return name.substring(0, 1);
-  }
+  //String abbrev() {
+  //  return name.substring(0, 1);
+  //}
 }
 
 typedef MemoriesChangedCallback = Function(Item item, bool completed);
@@ -76,6 +76,7 @@ class MemoriesItem extends StatelessWidget {
         //    new IconButton(icon: new Icon(Icons.add),onPressed: ()=>setState(()=> points++))
         // ]
         // )
+        // https://stackoverflow.com/questions/50044618/how-to-increment-counter-for-a-specific-list-item-in-flutter
         );
   }
 }

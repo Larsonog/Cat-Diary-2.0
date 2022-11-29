@@ -206,15 +206,8 @@ class _MemoriesState extends State<Memories> {
 }
 
 void main() {
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
     title: 'Thoughts about Pet recorder',
-    theme: ThemeData(
-      brightness: Brightness.light,
-    ),
-    darkTheme: ThemeData(
-      brightness: Brightness.dark,
-    ),
-    themeMode: ThemeMode.dark,
     home: Memories(),
   ));
 }
