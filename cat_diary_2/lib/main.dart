@@ -84,7 +84,7 @@ class _MemoriesState extends State<Memories> {
                 },
               ),
               ElevatedButton(
-                key: const Key("Pointbad"),
+                key: const Key("Pointsbad"),
                 style: yesStyle,
                 child: const Text('Bad'),
                 onPressed: () {
